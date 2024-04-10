@@ -74,4 +74,4 @@ df['Colour (no more than 7)'] = res
 colour_counts_each_node = pd.DataFrame(nodes_to_colours).T
 
 df.to_csv('combinatorial_result.csv', index = False)
-colour_counts_each_node.to_csv('combinatorial_result_by_node.csv', index = False)
+colour_counts_each_node.to_csv('combinatorial_result_by_node.csv', index = True)
